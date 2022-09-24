@@ -1,0 +1,81 @@
+<script>
+// program to display numbers from 1 to 5
+const n = 5;
+
+// looping from i = 1 to 5
+// in each iteration, i is increased by 1
+for (let i = 1; i <= n; i++) {
+    console.log(i);     // printing the value of i
+}
+
+
+
+const student = {
+    name: 'Kishan',
+    class: 10,
+    age: 22
+}
+
+// using for...in
+for ( let key in student ) {
+
+    // display the properties
+    console.log(`${key} => ${student[key]}`);
+}
+
+
+
+
+// array
+const students = ['Ram', 'Sam', 'Nam'];
+
+// using for...of
+for ( let element of students ) {
+
+    // display the values
+    console.log(element);
+}
+
+
+
+let students3 = ['Mam', 'Kam', 'Bam'];
+
+// using forEach
+students.forEach(myFunction);
+
+function myFunction(item, index, arr) {
+
+    // adding strings to the array elements
+    arr[index] = 'Hello ' + item;
+}
+console.log(students);
+
+//window,object,document
+
+//window is the execution context and global object for that context's JavaScript
+//document contains the DOM, initialized by parsing HTML
+//screen describes the physical display's full screen
+
+
+
+// Resume 
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
